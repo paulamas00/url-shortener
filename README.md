@@ -4,6 +4,11 @@ A full-stack URL shortener: paste a long link, get a short one back, and track
 how many times it's been clicked. Built with a **FastAPI** backend, a
 **React** frontend, and a **SQLite** database.
 
+**🌐 Live demo: https://url-shortener-dun-nu.vercel.app**
+
+> Note: the backend runs on Render's free tier and sleeps after inactivity, so
+> the first request may take ~40 seconds to wake it up.
+
 ## Features
 
 - Shorten any valid URL into a compact 6-character code
